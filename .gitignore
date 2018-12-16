@@ -1,39 +1,39 @@
-# object files
-*.o
-*.so
-*.a
-*.lo
-*.exe
-
-# dependent files
-*.d
-
-# dump crash
-core
-
-# Build tool
-jvm
-jvmp
-miniz
-miniunz
-reader
-writer
-libjar.so
-jar
-
-# object directory
-target
-
-# java object
-*.class
-*.jar
-
-# debug
-debug/*
-!debug/mkrt.sh
-!debug/CMakeLists.txt
-
-# release
-release/*
-!release/rt.jar
-!release/CMakeLists.txt
+## object files
+#*.o
+#*.so
+#*.a
+#*.lo
+#*.exe
+#
+## dependent files
+#*.d
+#
+## dump crash
+#core
+#
+## Build tool
+#jvm
+#jvmp
+#miniz
+#miniunz
+#reader
+#writer
+#libjar.so
+#jar
+#
+## object directory
+#target
+#
+## java object
+#*.class
+#*.jar
+#
+## debug
+#debug/*
+#!debug/mkrt.sh
+#!debug/CMakeLists.txt
+#
+## release
+#release/*
+#!release/rt.jar
+#!release/CMakeLists.txt
